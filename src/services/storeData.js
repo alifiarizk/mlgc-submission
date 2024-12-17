@@ -1,14 +1,10 @@
 const { Firestore } = require('@google-cloud/firestore');
-const path = require('path');
-
-const pathKey = path.resolve('./secretaccountkey.json')
      
 async function storeData(id, data) {
 
   try {
     const db = new Firestore({
-      projectId: 'submissionmlgc-alifia-445019',
-      keyFilename: pathKey,
+     databaseId: 'mlgc-db'
     });
  
     const predictCollection = db.collection('predictions');

@@ -28,7 +28,7 @@ const InputError = require('../exceptions/InputError');
         if (response instanceof InputError) {
             const newResponse = h.response({
                 status: 'fail',
-                message: `${response.message}`
+                message: `${response.message}Foto tidak terdeteksi`
             })
             newResponse.code(response.statusCode)
             return newResponse;
