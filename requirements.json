@@ -1,6 +1,0 @@
-{  
- "backend-service-url": "https://ml-cancerpredict-366124433238.asia-southeast2.run.app/",
- "frontend-service-url": "https://submissionmlgc-alifia-445019.et.r.appspot.com/",
- "project-id": "submissionmlgc-alifia-445019",
- "bucket-name": "submission-ml-alifiarizki"
-}
